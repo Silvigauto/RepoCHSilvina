@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=League+Gothic&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap');
 
 * {
 	padding: 0px;
@@ -13,9 +12,14 @@ html {
 	font-size: 62.5%;	
 }
 
-/*body {
-	overflow-x: hidden;
-}*/
+body {
+	/*overflow-x: hidden;*/
+	/*height: 100vh;*/
+	/*background: rgb(230,125,171);
+	background: linear-gradient(0deg, rgba(230,125,171,1) 0%, rgba(159,188,224,1) 84%, rgba(148,187,233,1) 87%);*/
+	/*background-repeat: no-repeat;*/
+	background-size: cover;	
+}
 
 
 
@@ -171,6 +175,15 @@ html {
     background-size: 100%;
 }
 
+/*BOTONERA EXPAND ALINEADA AL CENTRO*/
+
+.nav1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px;
+
+}
  
 .nosotros {
  	grid-area: nosotros;
@@ -238,12 +251,7 @@ html {
 
 /*TRANSFORMACIONES Y TRANSICIONES */
 
-body {
-	background: rgb(230,125,171);
-	background: linear-gradient(0deg, rgba(230,125,171,1) 0%, rgba(159,188,224,1) 84%, rgba(148,187,233,1) 87%);
 
-	background-size: cover;	
-}
 
 nav div a img:hover {
 	transform: scale(1.05);
@@ -495,6 +503,10 @@ div ul li:hover {
 	"footer"  ;
 }
 
+.tarjeta {
+	height: 30px;
+	width: 35px;
+}
 .banner {
 	grid-area: banner;
 }
@@ -528,15 +540,16 @@ table tr th {
 
 .metodos {
 	grid-area: metodos;
-	border-color: black;
-	font-size: 2rem;
-	margin: 20px;
-	padding: 10px;
+	/*border-color: black;*/
+	/*font-size: 2rem;*/
+	/*margin: 20px;
+	padding: 10px;*/
 	line-height: 4rem;
-	background-color: lightsalmon;
+	/*background-color: lightsalmon;*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-color: lightgrey;
 
 }
 
