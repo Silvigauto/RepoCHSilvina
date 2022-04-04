@@ -222,8 +222,13 @@ body {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
+			height: 300px;
 			
 		}
+
+	.boton1 {
+		margin-top: 15px;
+	}
 
 
 .footer {
@@ -295,7 +300,7 @@ div ul li:hover {
 			display: flex;
 			flex-direction: column;
 			align-items: center;			
-			/*height: 300px;*/
+			height: 300px;
 		}
 
 		.tamanofoto {
@@ -639,8 +644,7 @@ tr td button:hover {
 	grid-template-areas: 
 	"banner" 
 	"nav" 
-	"artistas" 
-	
+	"artistas" 	
 	"footer" ;
 }
 
@@ -652,32 +656,31 @@ tr td button:hover {
 	grid-area: nav;
 }
 
+/*logo Lollapalooza*/
 
 .tamanofoto2 {
 	width: 200px;
 	padding: 10px;
 }
+
 .artistas {
 	grid-area: artistas;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
-	/*flex-wrap: wrap;
-	margin: 20px;*/
 }
 
 
-
 .miley {
-	background: rgb(47,103,110);
-	background: linear-gradient(0deg, rgba(47,103,110,1) 0%, rgba(43,43,73,1) 95%);
+	/*background: rgb(47,103,110);
+	background: linear-gradient(0deg, rgba(47,103,110,1) 0%, rgba(43,43,73,1) 95%);*/
+	background-color: lightgrey;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 20px;
 	border-radius: 15px;
-	width: 45%;
+	width: 90%;
 	margin: 10px;
 	
 }
@@ -689,15 +692,16 @@ tr td button:hover {
 	}
 
 .asap {
-	background: rgb(47,103,110);
-	background: linear-gradient(0deg, rgba(47,103,110,1) 0%, rgba(43,43,73,1) 95%);
+	/*background: rgb(47,103,110);
+	background: linear-gradient(0deg, rgba(47,103,110,1) 0%, rgba(43,43,73,1) 95%);*/
+	background-color: lightgrey;
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 20px;
 	margin-top: 15px;
-	width: 45%;
+	width: 90%;
 }
 	.asapimg {
 		width: 100%;
@@ -705,15 +709,16 @@ tr td button:hover {
 	}
 
 .wos{
-	background: rgb(47,103,110);
-	background: linear-gradient(0deg, rgba(47,103,110,1) 0%, rgba(43,43,73,1) 95%);
+	/*background: rgb(47,103,110);
+	background: linear-gradient(0deg, rgba(47,103,110,1) 0%, rgba(43,43,73,1) 95%);*/
+	background-color: lightgrey;
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 20px;
 	margin-top: 15px;
-	width: 45%;
+	width: 90%;
 }
 
 	.wosimg {
@@ -723,15 +728,16 @@ tr td button:hover {
 	}
 
 .elmato {
-	background: rgb(47,103,110);
-	background: linear-gradient(0deg, rgba(47,103,110,1) 0%, rgba(43,43,73,1) 95%);
+	/*background: rgb(47,103,110);
+	background: linear-gradient(0deg, rgba(47,103,110,1) 0%, rgba(43,43,73,1) 95%);*/
+	background-color: lightgrey;
 	border-radius: 15px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 20px;
 	margin-top: 15px;
-	width: 45%;
+	width: 90%;
 }
 
 	.elmatoimg {
@@ -741,7 +747,7 @@ tr td button:hover {
 	}
 
 
-
+/*h1 artistas que van a estar part..*/
 .tl {
 	font-size: 3rem;
 	text-align: center;
@@ -752,9 +758,6 @@ tr td button:hover {
 	grid-area: footer;
 }
 
-
-
-
 @media (min-width: 768px) {
 .artistas {
 	grid-area: artistas;
@@ -763,14 +766,22 @@ tr td button:hover {
 	flex-wrap: wrap;
 	margin: 20px;
 }
+	.miley {
+		width: 45%;
+	}
+
+	.asap {
+		width: 45%;
+	}
 
 	.wos {
+		width: 45%;
 		margin: 10px;
 
 	}
 
-	.martin {
-		margin: 10px;
+	.elmato {
+		width: 45%;
 	}
 }
 
@@ -779,6 +790,24 @@ tr td button:hover {
 		/*padding: 30px;*/
 		font-size: 1.6rem;
 	}	
+
+	.miley {
+		width: 49%;
+	}
+
+	.asap {
+		width: 49%;
+	}
+
+	.wos {
+		width: 49%;
+		margin: 10px;
+
+	}
+
+	.elmato {
+		width: 49%;
+	}
 }
 
 
@@ -821,6 +850,9 @@ tr td button:hover {
     background-size: 100%;
 }
 
+.boton2 {
+	width: 45%;
+}
 
 
 .footer {
@@ -833,7 +865,13 @@ tr td button:hover {
 	transform: scale(1.1);
 	transition: 0.3s;
 }
- 
+
+@media (min-width: 700px) {
+	.iframe {
+		width: 560px;
+		height: 315px;
+	}
+}
 
 
 
